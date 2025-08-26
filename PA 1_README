@@ -1,1 +1,41 @@
-Problem Assessment 1 of ECE2112. Containing (3) problems using basic Phyton computation
+1. ALPHABET SOUP PROBLEM
+In the first problem, we had to define the string. Then return it with a string function "sorted" so it's in alphabetical order. After that, to be 
+able to display it, print the function.
+
+def alphabet_soup(str):               #defining str
+    return "".join(sorted(str))       #return the string with the sorted function so it's sorted in alphabetical order
+
+print (alphabet_soup("hello"))        #display
+print (alphabet_soup("hacker"))
+
+2. EMOTICON PROBLEM
+In the second problem, create a function by first of all defining emotify. Then, by using "e.replace", a string function. We can replace the initial 
+string 1 with string 2. So if we display a phrase containing string 1, it will instead show string 2.
+
+def emotify(e):                       #defining e
+    e = e.replace("smile", ":)")      #using a string function to change string1 to string2
+    e = e.replace("grin", ":D")
+    e = e.replace("sad", ":(")
+    e = e.replace("mad", ">:(")
+    return e
+
+print(emotify("Make me smile"))      #display
+print(emotify("I am mad"))
+print(emotify("What a grin"))
+print(emotify("I am so sad"))
+
+3. UNPACKING LIST PROBLEM
+In the third problem, a list must be created first. It contains 1, 2, 3, 4, 5, and 6. The output should display the "first" containing the first element, 
+the "middle" in which between the first and last elements is shown, and lastly the "last" would just be the last element. For the function, we must define 
+the element in the list. The first element will always be '0'. Then, for the middle, to show the elements between the first and last. The input value is 1, 
+which is the second element, where the middle would start. After that, a colon is put to slice the list, then put the last element after it. Because you're 
+slicing the middle to the element. For the last is -1 corresponding to the last element. Now you can print and run the code.
+
+lst = [1, 2, 3, 4, 5, 6]               #list
+first = [lst[0]]                       #first will be equal to '0' because it corresponds to the first elemen,t which is 1
+middle = lst[1:-1]                     #second will be equal to 1: -1 because it is sliced from the list which is 1 the second element and -1 as the last element
+last = [lst[-1]]                       #last corresponds to -1 because it is the last element which is 6
+
+print("first:", first)                 #Display
+print("middle:", middle)
+print("last:", last)
