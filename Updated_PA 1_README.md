@@ -1,11 +1,6 @@
-# PA 1 – Python Practice Problems
+# PA 1
 
-Welcome! 👋  
-This document will guide you through three beginner-friendly Python problems, showing you how the code works step-by-step. Feel free to run the code snippets and play with different inputs!
-
----
-
-## 1. 🥣 Alphabet Soup
+## 1. ALPHABET SOUP PROBLEM
 
 **Goal:**  
 Rearrange the letters of a word in alphabetical order.
@@ -34,11 +29,7 @@ print(alphabet_soup("hello"))   # Output: 'ehllo'
 print(alphabet_soup("hacker"))  # Output: 'acehkr'
 ```
 
-**Try changing the input words to see what happens!**
-
----
-
-## 2. 😊 Emoticon Replacer
+## 2. EMOTICON PROBLEM
 
 **Goal:**  
 Automatically replace emotion words in a sentence with their emoticons.
@@ -73,12 +64,9 @@ print(emotify("I am mad"))           # Output: 'I am >:('
 print(emotify("What a grin"))        # Output: 'What a :D'
 print(emotify("I am so sad"))        # Output: 'I am so :('
 ```
-
-**Feel free to create your own sentences!**
-
 ---
 
-## 3. 📦 Unpacking a List
+## 3. UNPACKING LIST PROBLEM
 
 **Goal:**  
 Separate the first, middle, and last elements from a list.
@@ -108,17 +96,3 @@ print("first:", first)     # Output: first: [1]
 print("middle:", middle)   # Output: middle: [2, 3, 4, 5]
 print("last:", last)       # Output: last: [6]
 ```
-
-**Try changing the list values or length, and see how the output changes!**
-
----
-
-## 💡 Tips
-
-- Play around! Change the function inputs and see the results.
-- Add your own twists—what happens if you add more emoticons or use words in different cases?
-- If you’re new to Python, try adding comments to explain each line in your own words.
-
----
-
-Happy coding! 🚀  
