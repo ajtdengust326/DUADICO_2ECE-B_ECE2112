@@ -24,7 +24,7 @@ def alphabet_soup(word):
     # Step 2 & 3: Sort and join the letters
     return "".join(sorted(word))
 
-# Step 4: Try it out!
+# Step 4:
 print(alphabet_soup("hello"))   # Output: 'ehllo'
 print(alphabet_soup("hacker"))  # Output: 'acehkr'
 ```
