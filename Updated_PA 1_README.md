@@ -3,9 +3,9 @@
 ## 1. ALPHABET SOUP PROBLEM
 
 **Goal:**  
-Rearrange the letters of a word in alphabetical order.
+My goal here is to rearrange the letters of a word in alphabetical order.
 
-### How does it work?
+### How do I approach it?
 
 1. **Define a function:**  
    Create a function named `alphabet_soup` that takes a word (string) as input.
