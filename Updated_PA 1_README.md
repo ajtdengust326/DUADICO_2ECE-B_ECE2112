@@ -1,11 +1,11 @@
-# PROBLEM ALPHABET 1
+# PROBLEM ASSESSMENT 1
 
 ## 1. ALPHABET SOUP PROBLEM
 
 **Goal:**  
 My goal here was to rearrange the letters of a word in alphabetical order.
 
-### How did I approached it?
+### How did I approach it?
 
 1. **Define a function:**  
    I created a function named `alphabet_soup` that takes a word (string) as input.
